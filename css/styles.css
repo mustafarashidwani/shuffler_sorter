@@ -74,3 +74,56 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
+
+@media only screen and (max-device-width:3000px){
+    .mobile-view{
+        display: none;
+    }
+}
+@media only screen and (max-device-width : 375px) {
+    .cell {
+        flex: 1 0 96%;
+    }
+    .mobile-view{
+        display: flex;
+    }
+    .desktop-view{
+        display: none;
+    }
+    .row{
+        flex-wrap: wrap-reverse;
+        overflow: hidden;
+    }
+    .button-container{
+        overflow: hidden;
+        flex: 1 0 100%;
+        flex-direction: row !important;
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+    }
+    .grid{
+        height: 90%;
+        width: 98%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .container{
+        background-color: #fff !important;
+        border-top: none !important;
+    }
+    .cards{
+        margin-bottom: 6px;
+    }
+    .footer{
+        background-color: #fff !important;
+    }
+    body{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .header{
+        background: #000;
+        color: #fff;
+    }
+}
