@@ -1,0 +1,76 @@
+body{
+    overflow: hidden;
+}
+.container {
+    width:100vw;
+    /* height: 100vh; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EFEFEF;
+    border-top: 3px solid #BFBFBF;
+}
+.cards{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    height: 92vh;
+    display: flex;
+}
+.button-container{
+    margin-left: auto;
+    display: flex;
+    height: 64px;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.button{
+    background-color:#72C3DC;
+    outline: none;
+    display: block;
+    position: relative;
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 10px 20px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s ;
+    border:none;
+    cursor: pointer;
+}
+.buttonPush {
+    box-shadow: 0px 3px 0px 0px #0e89b9;
+}
+.buttonPush:hover {
+    box-shadow: 0px 0px 0px 0px #0e89b9;
+}
+.footer{
+    justify-content: center;
+    background-color: #EFEFEF;
+    height: auto;
+    font-style: italic;
+}
+.inner-cards-text{
+    background-color:#BFBFBF;
+    height: 100%;
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+.header{
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
